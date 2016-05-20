@@ -817,7 +817,7 @@ func mapToXmlIndent(doIndent bool, s *string, key string, value interface{}, pp 
 			n++
 		}
 		elemlist = elemlist[:n]
-		sort.Sort(elemList(elemlist))
+		// sort.Sort(elemList(elemlist))
 		var i int
 		for _, v := range elemlist {
 			switch v[1].(type) {
